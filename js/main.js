@@ -1,19 +1,8 @@
-var $body = $('body');
 var $form = $('form');
 var $input = $('#color-selector');
 var $color = $('.color');
+var $ball = $('.ball');
 
-$input.on('change', function () {
-	var newColor = #ball;
-	var $ball.css('background-color', val());
+$form.on('change', function () {
+  $ball.css('background-color', $input.val());
 });
-
-
-
-//$('html').on('keydown', function () {
-//  var $div = $('<div>');
-
-//  $body.append($div);
-//  $div.addClass('ball');
-//  $div.css();
-//});
